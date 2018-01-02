@@ -15,7 +15,7 @@ public class Check_Radio {
 
 		driver.get("http://seleniumpractise.blogspot.in/2016/08/how-to-automate-radio-button-in.html");
 
-		driver.manage().window().maximize();
+		
 		
 		
 		WebElement Gen = driver.findElement(By.id("male"));
