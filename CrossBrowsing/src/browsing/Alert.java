@@ -21,15 +21,7 @@ public class Alert {
 
 		driver.manage().window().maximize();
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		WebElement cust_id = driver.findElement(By.name("cusid"));
-		cust_id.sendKeys("53920");
-		
-		
-		
-		WebElement submit = driver.findElement(By.name("submit"));
-		submit.click();
 		
 		Alert alert = (Alert) driver.switchTo().alert();
 		
