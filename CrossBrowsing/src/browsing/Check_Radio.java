@@ -18,10 +18,10 @@ public class Check_Radio {
 		
 		
 		
-		WebElement Gen = driver.findElement(By.id("male"));
+		WebElement Gen = driver.findElement(By.id("female"));
 		Gen.click();
 		
-		WebElement Radio = driver.findElement(By.id("python"));
+		WebElement Radio = driver.findElement(By.id("HHHpython"));
 		Radio.click();
 		
 		WebElement Check_bx = driver.findElement(By.id("code"));
