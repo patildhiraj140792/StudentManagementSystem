@@ -18,7 +18,6 @@ public class CheckVisibility {
 
 		driver.get("https://www.google.com");
 
-		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
