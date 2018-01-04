@@ -4,9 +4,7 @@
 	<parameter name="browserType" value="firefox" />
 	<test name="sample test">
 		<classes>
-			<class name="com.pack.common.tests.HomePageTest" />
-			<class name="com.pack.common.tests.SignInPageTest" />
-
+			<class name="browsing.ConnectMySQL"/>
 		</classes>
 	</test>
 </suite>
